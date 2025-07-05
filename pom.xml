@@ -8,5 +8,10 @@
   <name>seliumstudy</name>
   <url>http://maven.apache.org</url>
   <dependencies>
+    <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-java</artifactId>
+      <version>4.34.0</version>
+  </dependency>
   </dependencies>
 </project>
