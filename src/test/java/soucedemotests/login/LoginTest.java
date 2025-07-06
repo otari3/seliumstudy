@@ -3,7 +3,6 @@ package soucedemotests.login;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.soucedemo.pages.ProductsPage;
 
 import soucedemotests.basetests.BaseTest;
 
