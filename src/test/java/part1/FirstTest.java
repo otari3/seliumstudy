@@ -30,7 +30,7 @@ public class FirstTest {
    username.sendKeys("Admin");
    password.sendKeys("admin123");
    driver.findElement(By.tagName("button")).click();
-   Thread.sleep(1000);
+   Thread.sleep(2000);
    String actualResult = driver.findElement(By.tagName("h6")).getText();
    String exeptedResult = "Dashboard";
    Assert.assertEquals(actualResult, exeptedResult);
