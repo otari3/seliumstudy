@@ -12,7 +12,11 @@ public class App
 
         System.out.println("this is conflict from confclit");
 
+
         System.out.println("and this is conflict from objectmodel");
+
+
+        System.out.println("this is confclit from confclit");
 
     }
 }
