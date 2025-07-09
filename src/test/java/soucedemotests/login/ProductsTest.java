@@ -18,8 +18,8 @@ public class ProductsTest extends BaseTest {
     String lg = loginCred[i];
     ProductsPage currPg = loginPage.logIntoApplication(lg, "secret_sauce");
     softAssert.assertTrue(currPg.isProductsHeaderDisplayed(loginPage), "test case "+i+" failed");
-    currPg.logOut();
-   }
+    currPg.logOut();  
+  }
    softAssert.assertAll();
   }
 
